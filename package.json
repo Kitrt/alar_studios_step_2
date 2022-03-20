@@ -1,0 +1,43 @@
+{
+  "name": "alar_studios",
+  "description": "Тестовое задание для позиции Front-end Developer (CoffeeScript)",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "author": "Alexey",
+  "license": "ISC",
+  "scripts": {
+    "start": "webpack serve --node-env development --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "browserslist": [
+    "Last 2 versions"
+  ],
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.4.2",
+    "autoprefixer": "^9.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "coffee-loader": "^3.0.0",
+    "coffeescript": "^2.5.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-coffee": "^0.1.15",
+    "eslint-webpack-plugin": "^3.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.4.2",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "stylelint": "^14.6.0",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-webpack-plugin": "^3.1.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "point-in-polygon": "^1.1.0"
+  }
+}

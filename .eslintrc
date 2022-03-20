@@ -1,0 +1,12 @@
+{
+  "parser": "eslint-plugin-coffee",
+  "plugins": ["coffee"],
+  "rules": {
+    "no-undef": "off",
+    "coffee/no-unused-vars": "off",
+    "coffee/no-useless-escape": "off"
+  },
+  "extends": [
+    "plugin:coffee/eslint-recommended"
+  ]
+}
